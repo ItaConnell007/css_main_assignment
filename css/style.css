@@ -1,0 +1,210 @@
+/* resetting browser stuff */
+@font-face {
+  font-family: "Roboto";
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+
+}
+
+*     {
+  box-sizing: border-box;
+}
+
+html,
+body   {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-size: 16px;
+}
+
+/* styling our overall page */
+body     {
+  background: #FFF;
+  font-family: 'Roboto';
+}
+
+/* styling our header */
+header   {
+  background: #1f2937;
+  padding-top: 20px;
+  padding-left: 11%;
+}
+
+#logo > a {
+  color: #f9faf8;
+  text-decoration: none;
+}
+
+/* logo */
+#logo         {
+  display: inline-block;
+  color: #f9faf8;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+#logo span   {
+  display: inline-block;
+}
+
+/* main navigation */
+nav     {
+  width: 80%;
+  display: inline-block;
+  text-align: center;
+}
+nav ul   {
+  list-style: none;
+  margin: 0;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a    {
+  color: #FFF;
+  text-decoration: none;
+  display: block;
+  padding: 10px 15px;
+  border-radius: 3px;
+  transition: 0.3s ease all;
+}
+nav ul li a:hover   {
+  background: #444;
+}
+
+/* styling our footer */
+footer   {
+  background: #1f2937;
+  color: #777;
+  padding: 40px;
+  text-align: center;
+}
+
+/* styling our main content */
+.hero           {
+  padding-left: 10%;
+  padding-right: 10%;
+  min-height: 500px;
+  text-align: center;
+  background: #1f2937;
+  background-size: cover;
+}
+
+.hero-image {
+  background-size: cover;
+  display: inline-block;
+  width: 50%;
+  min-height: 300px;
+  margin-left: 5%;
+  background-image: url('../img/sky.jpg'); 
+}
+
+.hero-content   {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  
+  color: #FFF;
+  padding-top: 130px;
+}
+
+.hero-content .hero-title {
+  font-size: 48px;
+  font-weight: bolder;
+  margin: 0;
+  color: #f9faf8
+}
+.hero-content p    {
+  font-size: 18px;
+  color: #E5E7EB;
+}
+
+.hero-content a {
+  margin-top: 15px;
+  text-decoration: none;
+  font-size: 14px;
+  background-color: #3882F6;
+  border-color: none;
+  color: #fff;
+  text-align: left;
+  border-radius: 8px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* basic site sections */
+.site-section   {
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+.site-section-secondary   {
+  background: #EFEFEF;
+}
+.site-section-inside   {
+  width: 80%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.information-header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.information-header span  {
+  font-size: 36px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-weight: bolder;
+  color: #1F2937;
+}
+
+/* feature boxes */
+.feature-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.feature-box img  {
+  margin-bottom: 12px;
+  width: 80px;
+}
+.feature-box h5   {
+  font-size: 20px;
+  color: #999;
+  text-transform: uppercase;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+}
+
+/* testimonial boxes */
+.testimonial-box   {
+  display: inline-block;
+  width: 33%;
+  padding: 20px 30px;
+}
+.testimonial-content   {
+  background: #FFF;
+  padding: 15px;
+  border-radius: 4px;
+  margin-bottom: 15px;
+}
+.testimonial-author           {
+
+}
+.testimonial-author img {
+  float: left;
+  width: 80px;
+  border-radius: 50%;
+  margin-right: 15px;
+  vertical-align: middle;
+}
+.testimonial-author h5   {
+  font-size: 18px;
+  margin: 0;
+  padding-top:15px;
+}
+.testimonial-author span {
+  font-size: 14px;
+}
